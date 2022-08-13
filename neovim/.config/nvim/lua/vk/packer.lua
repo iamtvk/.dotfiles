@@ -74,7 +74,11 @@ use {
   tag = 'nightly' -- optional, updated every week. (see issue #1193)
 }
 
-
-
+use {
+  "jiaoshijie/undotree",
+  requires = {
+    "nvim-lua/plenary.nvim",
+  },
+}
 
 end)

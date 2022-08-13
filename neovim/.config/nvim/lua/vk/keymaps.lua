@@ -90,3 +90,7 @@ map('n','<leader>s', ':Telescope<CR>')
 --lspconfig
 map('n','<leader>#', ':TransparentToggle<CR>')
 
+--undotree
+--map('n', '<leader>u',':require('undotree').toggle')
+vim.keymap.set('n', '<leader>u', require('undotree').toggle, { noremap = true, silent = true })
+

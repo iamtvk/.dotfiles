@@ -1,6 +1,7 @@
 require("vk.set")
 require("vk.keymaps")
 --require('lualine').setup()
+require("undotree").setup()
 require('lualine').setup {}
 require("vk.nordc")
 --Nvim Tree

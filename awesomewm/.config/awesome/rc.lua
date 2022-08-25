@@ -193,12 +193,12 @@ globalkeys = gears.table.join(
         {description = "go back", group = "client"}),
 
     -- Standard program
-    awful.key({ modkey, "Shift" }, "Return", function () awful.spawn(terminal,{
-                                    floating = true,
-                                    placement = awful.placement.centered
-                                }) end,
+  --  awful.key({ modkey, "Shift" }, "Return", function () awful.spawn(terminal,{
+  --                                  floating = true,
+   --                                 placement = awful.placement.centered
+   --                             }) end,
 
-              {description = "open a terminal in floating", group = "launcher"}),
+    --          {description = "open a terminal in floating", group = "launcher"}),
 
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
@@ -533,6 +533,7 @@ autorunApps =
   --  "fcitx -d",
   --"brave",
   "clipmenud",
+  "pkill polybar picom",
   "polybar",--polybar def
   "xbindkeys",
   "setxkbmap -option caps:escape",--swap capslock with esc

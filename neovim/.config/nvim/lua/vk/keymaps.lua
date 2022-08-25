@@ -94,3 +94,5 @@ map('n','<leader>#', ':TransparentToggle<CR>')
 --map('n', '<leader>u',':require('undotree').toggle')
 vim.keymap.set('n', '<leader>u', require('undotree').toggle, { noremap = true, silent = true })
 
+--bufferline
+map('n','<m-tab>','<cmd>BufferLineCycleNext<CR>')

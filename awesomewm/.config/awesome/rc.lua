@@ -207,8 +207,8 @@ globalkeys = gears.table.join(
     awful.key({ modkey,          },      "b", function () awful.spawn("brave") end,
               {description = "open Brave ", group = "launcher"}),
 
-    awful.key({ modkey, "Shift"  },      "b", function () awful.spawn("firefox -private-window") end,
-              {description = "open Firefox incognito ", group = "launcher"}),
+    --awful.key({ modkey, "Shift"  },      "b", function () awful.spawn("firefox -private-window") end,
+              --{description = "open Firefox incognito ", group = "launcher"}),
 
     awful.key({modkey,          },      "f", function () awful.spawn("alacritty -e ranger") end,
               {description = "launch ranger  ",group = "launcher"}),
@@ -216,16 +216,15 @@ globalkeys = gears.table.join(
     awful.key({modkey, "Shift"  },      "f", function () awful.spawn("thunar") end,
               {description = "launch Thunar  ",group = "launcher"}),
 
-    
 --dmenu
 
-    awful.key({modkey,          },      "o", function () awful.spawn("dm-websearch") end,
+--    awful.key({modkey,          },      "o", function () awful.spawn("dm-websearch") end,
 
-              {description = "launch websearch ",group = "dmenu-launcher"}),
-    
+ --             {description = "launch websearch ",group = "dmenu-launcher"}),
 
-    awful.key({modkey,          },      "a", function () awful.spawn("") end,
-              {description = "launch ",group = "dmenu-launcher"}),
+
+    --awful.key({modkey,          },      "a", function () awful.spawn("") end,
+     --         {description = "launch ",group = "dmenu-launcher"}),
 
 
     awful.key({ modkey, "Control" }, "r", awesome.restart,

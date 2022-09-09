@@ -111,7 +111,7 @@ window:
   # Font family
   key_bindings:
     #   - { key: Space,  mods:Control,  action:ToggleViMode    } 
-    - { key: Space, mods: Control, action: ToggleViMode }
+    - { key: Space,  mods: Control,                 action: ToggleViMode            }
   # If the italic family is not specified, it will fall back to the
   # value specified for the normal font.
   #family: monospace

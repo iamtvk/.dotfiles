@@ -11,7 +11,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 
 #!/bin/bash
-#eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -167,7 +167,7 @@ alias c='clear'
 #alias cht='s() { local iy="$1" ;shift 2 ;cht.sh "$@" | less };s'
 # alias w='wal -q -i ~/animeﯜ/MakotoShinkai-seasons/'
 # starshippromt
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 # iamtvk
 export EDITOR=nvim
  #pfetch

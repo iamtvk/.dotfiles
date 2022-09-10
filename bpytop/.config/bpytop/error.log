@@ -1,0 +1,29 @@
+06/09/22 (11:44:39) | ERROR: Input thread failed with exception: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/sbin/bpytop", line 957, in _get_key
+    input_key += sys.stdin.read(1)						#* Read 1 key safely with blocking on
+OSError: [Errno 5] Input/output error
+06/09/22 (12:12:04) | ERROR: Exception when sending signal 9 to pid 171
+06/09/22 (12:12:04) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/sbin/bpytop", line 5479, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+06/09/22 (12:12:04) | ERROR: Exception when sending signal 9 to pid 171
+06/09/22 (12:12:04) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/sbin/bpytop", line 5479, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+06/09/22 (12:12:04) | ERROR: Exception when sending signal 9 to pid 171
+06/09/22 (12:12:04) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/sbin/bpytop", line 5479, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+06/09/22 (12:12:05) | ERROR: Exception when sending signal 9 to pid 171
+06/09/22 (12:12:05) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/sbin/bpytop", line 5479, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted

@@ -59,3 +59,11 @@ require'lspconfig'.sorbet.setup{
     vim.keymap.set("n","K", vim.lsp.buf.hover, {buffer=0})
 end
 }
+
+
+
+require'lspconfig'.emmet_ls.setup{
+    on_attach = function()
+    vim.keymap.set("n","K", vim.lsp.buf.hover, {buffer=0})
+end
+}

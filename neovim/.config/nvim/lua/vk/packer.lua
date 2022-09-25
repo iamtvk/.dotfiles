@@ -85,4 +85,9 @@ use {
 use {
     'norcalli/nvim-colorizer.lua'
 }
+
+use {
+    'gpanders/nvim-parinfer'
+}
+
 end)

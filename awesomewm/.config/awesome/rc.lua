@@ -74,8 +74,8 @@ modkey = "Mod4"
 awful.layout.layouts = {
     awful.layout.suit.tile,
     awful.layout.suit.tile.left,
-    awful.layout.suit.fair,
     awful.layout.suit.tile.bottom,
+    awful.layout.suit.fair,
     awful.layout.suit.tile.top,
     awful.layout.suit.floating,
     awful.layout.suit.fair.horizontal,
@@ -458,6 +458,7 @@ awful.rules.rules = {
 -- Signal function to execute when a new client appears.
 client.connect_signal("manage", function (c)
     -- Set the windows at the slave,
+    awful.client.setslave(c)
     -- i.e. put it at the end of others instead of setting it master.
     -- if not awesome.startup then awful.client.setslave(c) end
 

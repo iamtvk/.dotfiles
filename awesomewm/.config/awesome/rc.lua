@@ -520,7 +520,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 -- Autorun programs
---awful.spawn.with_shell("wal -q -i ~/animeﯜ/MakotoShinkai-seasons/")
+--awful.spawn.with_shell("xss-lock --transfer-sleep-lock -- mi3lock --nofork")
 
 autorun = true
 autorunApps =

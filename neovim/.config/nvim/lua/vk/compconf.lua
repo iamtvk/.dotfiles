@@ -28,7 +28,7 @@ cmp.setup({
     format = function(entry, item)
       local menu_icon = {
         --nvim_lsp = 'λ',
-        nvim_lsp = '卵',
+        --nvim_lsp = '卵',
         luasnip = '',
         buffer = 'Ω',
         path = '',

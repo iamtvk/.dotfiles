@@ -31,8 +31,8 @@ map('', '<down>', '<nop>')
 map('', '<left>', '<nop>')
 map('', '<right>', '<nop>')
 
--- Map Esc to kk
-map('i', 'jk', '<Esc>')
+-- Map Esc to kj
+map('i', 'kj', '<Esc>')
 
 
 -- Toggle auto-indenting for code paste

@@ -19,8 +19,6 @@ require("nvim-lsp-installer").setup({
         }
     }
 })
--- autopairs
-require('nvim-autopairs').setup{}
 
 --For Lsps 
 require("vk.lsp")
@@ -28,3 +26,6 @@ require("vk.lsp")
 
 --nvim-cmp
 require("vk.compconf")
+
+-- autopairs
+require("vk.autopairs")

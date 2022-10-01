@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/thevk/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  gruvbox = {
+    loaded = true,
+    path = "/home/thevk/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
   ["kanagawa.nvim"] = {
     loaded = true,
     path = "/home/thevk/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
@@ -149,11 +154,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/thevk/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-parinfer"] = {
-    loaded = true,
-    path = "/home/thevk/.local/share/nvim/site/pack/packer/start/nvim-parinfer",
-    url = "https://github.com/gpanders/nvim-parinfer"
   },
   ["nvim-transparent"] = {
     loaded = true,

@@ -7,7 +7,7 @@ return require('packer').startup(function()
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   -- Gruvbox colorscheme
-  --use "morhetz/gruvbox"
+  use "morhetz/gruvbox"
   -- Kanagawa colorscheme
   use 'rebelot/kanagawa.nvim'
   use 'shaunsingh/nord.nvim'
@@ -84,10 +84,6 @@ use {
 
 use {
     'norcalli/nvim-colorizer.lua'
-}
-
-use {
-    'gpanders/nvim-parinfer'
 }
 
 end)

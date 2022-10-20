@@ -23,6 +23,9 @@ require("nvim-lsp-installer").setup({
 --For Lsps 
 require("vk.lsp")
 
+--Comments
+require('Comment').setup()
+
 
 --nvim-cmp
 require("vk.compconf")

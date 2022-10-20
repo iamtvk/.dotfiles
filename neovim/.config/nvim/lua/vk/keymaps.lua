@@ -49,7 +49,7 @@ map('n', '<C-l>', '<C-w>l')
 -- Reload configuration without restart nvim
 map('n', '<leader>r', ':so %<CR>')
 
-
+map('n', 'ZW' , '<cmd>w<CR>')
 -- Visual --
 -- Stay in indent mode
 map("v", "<", "<gv")
@@ -96,3 +96,12 @@ vim.keymap.set('n', '<leader>u', require('undotree').toggle, { noremap = true, s
 
 --bufferline
 map('n','<m-tab>','<cmd>BufferLineCycleNext<CR>')
+
+--Harpoon 
+map('n','<leader>h','<cmd>lua require("harpoon.mark").add_file()<CR>')
+map('n','<leader>J','<cmd>:lua require("harpoon.ui").toggle_quick_menu()<CR>')
+map('n','<leader>j','<cmd>lua require("harpoon.ui").nav_file(1)<CR>')
+map('n','<leader>k','<cmd>lua require("harpoon.ui").nav_file(2)<CR>')
+map('n','<leader>l','<cmd>lua require("harpoon.ui").nav_file(3)<CR>')
+map('n','<leader>;','<cmd>lua require("harpoon.ui").nav_file(4)<CR>')
+

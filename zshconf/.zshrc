@@ -158,7 +158,7 @@ alias tolab='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 #some
 alias awconf='nvim ~/.config/awesome/rc.lua'
 alias spd='speedtest'
-alias f='ranger' 
+alias f='joshuto' 
 #alias obsidian='Obsidian-0.14.2.AppImage'
 alias alaconf='nvim ~/.config/alacritty/alacritty.yml'
 alias foliate='com.github.johnfactotum.Foliate'
@@ -176,3 +176,8 @@ export EDITOR=nvim
 # fortune issa-haiku
 # spd
 #fortune cybersuntza
+
+source /home/thevk/.config/broot/launcher/bash/br
+
+# Following line was automatically added by arttime installer
+export PATH=/home/thevk/.local/bin:$PATH

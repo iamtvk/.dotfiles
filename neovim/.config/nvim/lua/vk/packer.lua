@@ -57,14 +57,13 @@ use {
  'hrsh7th/cmp-path',
  'hrsh7th/cmp-cmdline',
  'hrsh7th/nvim-cmp',
-  
   }
 
 --lua snip
  use {
 
 'L3MON4D3/LuaSnip',
-'saadparwaiz1/cmp_luasnip' 
+'saadparwaiz1/cmp_luasnip'
 
     }
 
@@ -86,4 +85,14 @@ use {
     'norcalli/nvim-colorizer.lua'
 }
 
+use {
+    "ThePrimeagen/harpoon"
+}
+
+use {
+    "numToStr/Comment.nvim",
+    config = function()
+        require('Comment').setup()
+    end
+}
 end)

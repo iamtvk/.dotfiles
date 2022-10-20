@@ -210,7 +210,7 @@ globalkeys = gears.table.join(
     --awful.key({ modkey, "Shift"  },      "b", function () awful.spawn("firefox -private-window") end,
               --{description = "open Firefox incognito ", group = "launcher"}),
 
-    awful.key({modkey,          },      "f", function () awful.spawn("alacritty -e ranger") end,
+    awful.key({modkey,          },      "f", function () awful.spawn("alacritty -e joshuto") end,
               {description = "launch ranger  ",group = "launcher"}),
 
     awful.key({modkey, "Shift"  },      "f", function () awful.spawn("thunar") end,
@@ -528,10 +528,12 @@ autorunApps =
   "picom",
   "setxkbmap -option altwin:swap_alt_win",--swap alt and super
   "nitrogen --restore",
+  --wal -q -i "~/.config/ani-walls/goku.png"
   --"bash /home/iamtvk/.config/polybar/launch.sh --forest",
   --"wal -q -i ~/animeﯜ/MakotoShinkai-seasons/",
   --  "fcitx -d",
   --"brave",
+  "bash xss-lock --transfer-sleep-lock -- mi3lock --nofork",
   "clipmenud",
   "pkill polybar picom",
   "polybar",--polybar def

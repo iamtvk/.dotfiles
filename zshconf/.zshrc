@@ -165,6 +165,7 @@ alias foliate='com.github.johnfactotum.Foliate'
 #alias q='exit'
 alias ghb='gh browse'
 alias c='clear'
+alias fap='brave -incognito'
 #alias cht='s() { local iy="$1" ;shift 2 ;cht.sh "$@" | less };s'
 # alias w='wal -q -i ~/animeﯜ/MakotoShinkai-seasons/'
 # starshippromt

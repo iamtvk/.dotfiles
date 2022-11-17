@@ -1,4 +1,4 @@
-d<div align="center">
+<div align="center">
 
 # Dotfiles 
 
@@ -8,11 +8,19 @@ My System config files
 
 ![Screenshot1](https://github.com/iamtvk/.dotfiles/blob/master/Screenshots/.config/screenshots/desktp.png)
 
+
+
 ![Screenshot1](https://github.com/iamtvk/.dotfiles/blob/master/Screenshots/.config/screenshots/nvim.png)
+
+
 
 ![Screenshot1](https://github.com/iamtvk/.dotfiles/blob/master/Screenshots/.config/screenshots/rangr.png)
 
+
+
 ![Screenshot1](https://github.com/iamtvk/.dotfiles/blob/master/Screenshots/.config/screenshots/dmenu.png)
+
+
 
 
 ## Install utilities

@@ -17,10 +17,11 @@ return require('packer').startup(function()
 
 
   --LSP
-  use{
-  --lsp-installer
-        'williamboman/nvim-lsp-installer',
-    }
+  use { "williamboman/mason.nvim",
+  "williamboman/mason-lspconfig.nvim",
+}
+
+
 
 --nvim-autopairs    
 use {
@@ -44,8 +45,10 @@ use {
 
 --treesitter
   use {
-       'nvim-treesitter/nvim-treesitter',
-        run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+      'nvim-treesitter/nvim-treesitter',
+      'nvim-treesitter/nvim-treesitter-context',
+      run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+
   }
     --nvim cmp  
 
@@ -62,10 +65,17 @@ use {
 --lua snip
  use {
 
-'L3MON4D3/LuaSnip',
 'saadparwaiz1/cmp_luasnip'
 
     }
+
+ use {
+
+        'L3MON4D3/LuaSnip',
+    }
+--Snipps
+use "rafamadriz/friendly-snippets"
+
 
 --Nvim Tree 
 use {
@@ -95,4 +105,8 @@ use {
         require('Comment').setup()
     end
 }
+use {
+    'ThePrimeagen/vim-be-good'
+}
+
 end)

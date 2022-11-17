@@ -193,7 +193,7 @@ globalkeys = gears.table.join(
         {description = "go back", group = "client"}),
 
     -- Standard program
-  --  awful.key({ modkey, "Shift" }, "Return", function () awful.spawn(terminal,{
+  --  awful.key({ modkey, "Shift" }, "Return", function () awful.spawn(terminal --class floating_terminal,{
   --                                  floating = true,
    --                                 placement = awful.placement.centered
    --                             }) end,

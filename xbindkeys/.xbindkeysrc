@@ -90,7 +90,7 @@
   Mod4+shift+x
 
 # Lock
-"mi3lock"
+"bash ~/bin/mi3lock"
  F8
 
 # Clipmen

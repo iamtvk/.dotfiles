@@ -82,7 +82,7 @@
    XF86AudioMicMute
 
 # Switch b/w audio sinks
-"sinkswtch"
+"sink-swtch"
   Mod1+XF86AudioMute
 
 # Launch powermenu

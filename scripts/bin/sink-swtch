@@ -12,10 +12,10 @@ if [ "$CURRENT_PROFILE" = "analog-output-lineout" ]; then
 	pactl set-sink-port 0 "analog-output-headphones"
 	amixer -c0 set Front 0% > /dev/null
 	amixer -c0 set Headphone 100% > /dev/null
-	notify "Sound output switched to speakers"
+	notify "Sound output switched to headphones"
 else
 	pactl set-sink-port 0 "analog-output-lineout"
 	amixer -c0 set Headphone 0% > /dev/null
 	amixer -c0 set Front 100% > /dev/null
-	notify "Sound output switched to headphones"
+	notify "Sound output switched to speakers"
 fi

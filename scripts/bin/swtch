@@ -1,0 +1,21 @@
+#!/bin/bash
+CURRENT_PROFILE=$(pactl list sinks | grep "Active Port" | cut -d ' ' -f 3-)
+NOTIFICATION_DURATION_MS=2000
+
+notify() {
+	notify-send --hint=int:transient:1 -t $NOTIFICATION_DURATION_MS "Sound Switch" "$1"
+}
+
+amixer -c0 set "Auto-Mute Mode" Disabled
+
+if [ "$CURRENT_PROFILE" = "analog-output-lineout" ]; then
+	pactl set-sink-port 0 "analog-output-headphones"
+	amixer -c0 set Front 0% > /dev/null
+	amixer -c0 set Headphone 100% > /dev/null
+	notify "Sound output switched to speakers"
+else
+	pactl set-sink-port 0 "analog-output-lineout"
+	amixer -c0 set Headphone 0% > /dev/null
+	amixer -c0 set Front 100% > /dev/null
+	notify "Sound output switched to headphones"
+fi

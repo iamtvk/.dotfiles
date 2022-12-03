@@ -46,6 +46,10 @@ map('n', '<C-j>', '<C-w>j')
 map('n', '<C-k>', '<C-w>k')
 map('n', '<C-l>', '<C-w>l')
 
+--navigation
+map('n', '<C-d>', '<C-d>zz') --centering the carret
+map('n', '<C-u>', '<C-u>zz')
+
 -- Reload configuration without restart nvim
 map('n', '<leader>r', ':so %<CR>')
 

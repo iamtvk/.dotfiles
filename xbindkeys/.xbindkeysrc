@@ -83,7 +83,7 @@
 
 # Switch b/w audio sinks
 "sink-swtch"
-  Mod1+XF86AudioMute
+     Mod1+XF86AudioMute
 
 # Launch powermenu
 "powerdmenu.sh"
